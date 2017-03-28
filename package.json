@@ -1,0 +1,49 @@
+{
+  "name": "node-sciencedirect",
+  "version": "0.0.0",
+  "description": "A node sdk and client library for sciencedirect api",
+  "homepage": "https://github.com/haritzmedina/node-sciencedirect",
+  "author": {
+    "name": "Haritz Medina",
+    "email": "haritzmedina@gmail.com",
+    "url": "https://haritzmedina.com"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "sciencedirect",
+    "elsevier",
+    "sdk",
+    "api"
+  ],
+  "devDependencies": {
+    "coveralls": "^2.12.0",
+    "nsp": "^2.6.3",
+    "eslint": "^3.18.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^19.0.2",
+    "jest-cli": "^19.0.1"
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "pretest": "eslint **/*.js --fix",
+    "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "repository": "haritzmedina/node-sciencedirect",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "request": "latest"
+  }
+}
