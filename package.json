@@ -1,6 +1,6 @@
 {
   "name": "node-sciencedirect",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A node sdk and client library for sciencedirect api",
   "homepage": "https://github.com/haritzmedina/node-sciencedirect",
   "author": {
@@ -28,7 +28,7 @@
   },
   "scripts": {
     "prepublish": "nsp check",
-    "pretest": "eslint **/*.js --fix",
+    "pretest": "eslint lib/*.js --fix",
     "test": "jest"
   },
   "eslintConfig": {

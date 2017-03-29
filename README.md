@@ -10,7 +10,7 @@ $ npm install --save node-sciencedirect
 ## Usage
 
 ```js
-var nodeSciencedirect = require('node-sciencedirect');
+let nodeSciencedirect = require('node-sciencedirect');
 
 nodeSciencedirect('Rainbow');
 ```
