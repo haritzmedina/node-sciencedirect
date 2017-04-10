@@ -1,11 +1,11 @@
 const ScienceDirect = require('./lib/index.js');
 
 const scienceDirectApiKey = process.env.SCIENCEDIRECT_APIKEY || null;
-const queryExample = 'Chatbot';
+const queryExample = 'conversational agent';
 
 const scienceDirect = new ScienceDirect(scienceDirectApiKey);
 
-scienceDirect.search(queryExample, 5, {}, (err, result) => {
+scienceDirect.search(queryExample, 1, {sort: '-coverDate'}, (err, result) => {
   if (err) {
     console.log(err);
   } else {
