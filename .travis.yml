@@ -1,13 +1,10 @@
-env:
-  global:
-    secure: "JFtfG5+BVS7r5zOK8BAKAAYw24Sn+jlyxsnyjKHSCR1og9aj8h5vENr1x0nrghfrgC1REaOi8XajzNc7xVpvjYDQCnu0OOdm/WibBkHjYBWFXcJicN+jh4034YADzmM6CHNmPwM3s2PeFE0VsiDXC0hpNiMTk8Ug3s91GKZey
-    ECSFJA3fl2+VhokQnJjU/1lBHjageG2oTD80HNNiyiRd+UNfhcjXL4Pqv3J25g8JEfqcRR2sMgThiOy/JYmO7Sc3HETWWatl0zA4QjzZ2r1p1frHziAnGXPIn4UzPqk7vap2o0OIfrY4HovjgFHieDNnY5qfxcxbf/++tceaeyKzo7o3mnE7
-    IxCpdnm+XiYW8gJeZDnk/f2Xy2lOoBaEp0tNDlcC9ntqqce9yX0pnfZIA8c5qsqpn5FkD/HtkrKG6+fX/g8TfNg0ukhXk6XJwz4nie/R/Kgrwvs2jmHREajWl6f8C+geQsPmaGHjuuwtb5tTWUWqVC9zwRl3v3YsjbJqLDWTzoI6Ag0IcSC0
-    VEr6gOCWlo9ZQWSWxullBskU4cO8cuFjgL2PKkcUprEd+yf+A13pPNcXwtVvzy05v/UzuilLYQZw+O/Tf52Wri+0BZyZgn/X/rB8tuKIH1RhMZNx6panWZdKUsOFI4KT75+FwyDo3vH8A82uqvemC6WG4I="
 language: node_js
 node_js:
-  - v7
-  - v6
-  - v5
-  - v4
-after_script: 'cat ./coverage/lcov.info | coveralls'
+- v7
+- v6
+- v5
+- v4
+after_script: cat ./coverage/lcov.info | coveralls
+env:
+  global:
+    secure: Yn2g0J2MU9xju1V9s6B6obEykyzFOzq9xD+0lh18rJaFARrthk+D/5C/ZvvMGKvHK8IRGcYnf/KWV5Yx8wJHVQd28iln99pht16pGuYj2mJF2jWNmxpn1jQiGlLrvJrbN9o5/jZhPXPTtdz5HbvNMQ9XkV5iPcLBiKa4ZWj17lR75fUPtvX9Ka33d3a9ZxwXpsZBpOy+GGosEKWtbUiSY417zyR/5IsueMKsFiyY1dwC3BRpmy9ClkYjPwdV5tlpHSFKj6OB1+idNg9t+vzJKQDXywH8DasvkFsUWksLOPuSl0n57HSDAHNTfqKtREVBCAFMxrjk0Zk9CsGxeIyG7TwDPoknznFNug0hHqBQCi1xsljOGzwyyISwdvwHHWzWL2RWLguYrZ7D9Xly6h7uXC9IFub4/j+ogyikSghrMmi883ZXSOpjb/1QCAelfst2FDLxl5k/iJNnTowJhPwI2GXe52v8VVHm75QTNdF6bKMzIh/wZj6PTI+X8qIvXglti9fdkRaR40nGs70sy/VXZzqRLR+ro3EuLgTnCSb3PenTc1J9XekjFa82tQpGlqT0AbnQCt9tlUQvmlRgDj46ulU39OER7/UbpgN2OXjsfy+tF2szmwO0VRzndGbF45fkNhcbKIxPK+d8lkJwLMRb8vUYlquYVtzqXwG2tMfJgho=
